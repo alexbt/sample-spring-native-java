@@ -1,0 +1,4 @@
+- checkout project
+- run `mvn spring-boot:build-image`
+- run `docker run --rm -p 8080:8080 sample-spring-native-java:0.0.1-SNAPSHOT`
+- run `curl localhost:8080/test
